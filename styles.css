@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    border: 0;
+}
+
+/*CSS*/
 header{
     background-color: #1f2837;
     color: #E5E7EB;
@@ -16,6 +22,35 @@ header{
 
 a{
     text-decoration: none;
+    color:#E5E7EB;
+}
+
+/*primera seccion*/
+.front_page{
+    background-color: #1f2837;
+    color:#E5E7EB;
+
+    display: flex;
+    padding:5%;
+    padding-top:0;
+    gap:7vh;
+}
+
+img{
+    flex:auto;
+    border-radius: 80px;
+    padding-top: 2.5vh;
+}
+
+button{
+    background-color: #E5E7EB;
+    color:#1f2837;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:0;
+    border-radius:5px;
+}
+button:hover{
+    background-color: #E5E7EA50;
     color:#E5E7EB;
 }
 
