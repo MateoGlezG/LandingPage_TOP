@@ -43,8 +43,8 @@ img{
 }
 
 button{
-    background-color: #E5E7EB;
-    color:#1f2837;
+    background-color: #2b76f7;
+    color:#E5E7EB;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border:0;
     border-radius:5px;
@@ -54,3 +54,54 @@ button:hover{
     color:#E5E7EB;
 }
 
+/*section 1*/
+.first{
+text-align: center;
+}
+.first h3{
+    
+}
+
+.first div{
+    display: flex;
+    justify-content: center;
+    gap:7vh;
+    
+}
+
+.first div article{
+    border: solid 2px #2b76f7;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 5px;
+}
+
+.first div .text{
+    width: 15vh;
+    height: 15vh;
+}
+
+/*Section 2*/
+.second{
+    background-color: #8d8f91;
+    padding:3vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second h3{
+    color:#E5E7EB;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10vh;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.second h5{
+    text-align: end;
+    padding-right: 10vh;
+    
+}
